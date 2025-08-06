@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://LAYT73.github.io/zero-guess-frontend-docs/blog</id>
+    <title>zero-guess-frontend Blog</title>
+    <updated>2025-08-05T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://LAYT73.github.io/zero-guess-frontend-docs/blog"/>
+    <subtitle>zero-guess-frontend Blog</subtitle>
+    <icon>https://LAYT73.github.io/zero-guess-frontend-docs/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome Zero Guess Frontend CLI]]></title>
+        <id>https://LAYT73.github.io/zero-guess-frontend-docs/blog/welcome-zgf</id>
+        <link href="https://LAYT73.github.io/zero-guess-frontend-docs/blog/welcome-zgf"/>
+        <updated>2025-08-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is my first post about ZGF CLI.]]></summary>
+        <content type="html"><![CDATA[<p>The Zero Guess Frontend CLI (ZGF CLI) is here to simplify and accelerate your frontend development workflow. This tool brings powerful scaffolding, automation, and developer ergonomics in one compact package.</p>
+<p>With ZGF CLI, you can:</p>
+<ul>
+<li>Scaffold new components, pages, or modules in seconds.</li>
+<li>Automate repetitive tasks with ease.</li>
+<li>Enforce consistent project structure.</li>
+<li>Integrate with your existing stack seamlessly.</li>
+</ul>
+<p>This is just the beginning — stay tuned for more updates, tutorials, and guides!</p>]]></content>
+        <author>
+            <name>Nikita Shipilov</name>
+            <uri>https://github.com/LAYT73</uri>
+        </author>
+        <category label="Hello" term="Hello"/>
+        <category label="Zero-Guess-Frontend" term="Zero-Guess-Frontend"/>
+    </entry>
+</feed>

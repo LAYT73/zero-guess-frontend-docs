@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkzero_guess_frontend_docs=self.webpackChunkzero_guess_frontend_docs||[]).push([[903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/zero-guess-frontend-docs/blog","blogTitle":"Blog","authorsListPath":"/zero-guess-frontend-docs/blog/authors"}')}}]);

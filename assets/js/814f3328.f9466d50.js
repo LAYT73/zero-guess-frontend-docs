@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkzero_guess_frontend_docs=self.webpackChunkzero_guess_frontend_docs||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome Zero Guess Frontend CLI","permalink":"/zero-guess-frontend-docs/blog/welcome-zgf","unlisted":false,"date":"2025-08-05T00:00:00.000Z"}]}')}}]);

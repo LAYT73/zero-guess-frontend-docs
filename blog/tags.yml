@@ -1,9 +1,0 @@
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello my friends!
-
-zgf:
-  label: Zero-Guess-Frontend
-  permalink: /zgf
-  description: Zero-Guess-Frontend

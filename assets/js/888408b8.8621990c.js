@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkzero_guess_frontend_docs=self.webpackChunkzero_guess_frontend_docs||[]).push([[985],{10:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/zero-guess-frontend-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
