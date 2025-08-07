@@ -22,7 +22,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            ZGF Tutorial - 5min ⏱️
+            ZGF Tutorial - 5min
           </Link>
         </div>
       </div>
@@ -35,7 +35,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`${siteConfig.title}-docs`}
-      description="Description will go into a meta tag in <head />"
+      description="Zero Guess Frontend CLI Documentation will helps users to quickly understand and utilize the features of the Zero Guess CLI."
     >
       <HomepageHeader />
       <main>

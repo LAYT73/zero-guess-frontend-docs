@@ -42,6 +42,7 @@ The CLI does the thinking for you — it helps you generate:
 - UI components
 - Hooks
 - Routing templates (with optional private routes)
+- State manager templates (Redux Toolkit / Mobx / none)
 
 All generated code follows strict naming and folder conventions to keep your project clean and maintainable.
 
@@ -65,7 +66,7 @@ zgf
 Or use CLI flags for full control:
 
 ```bash
-zgf --name=my-app --pm=yarn --lang=ts --arch=fsd --routing --private
+zgf --name=my-app --pm=yarn --lang=ts --arch=fsd --routing --private --sm=redux
 ```
 
 Need help? Just run:

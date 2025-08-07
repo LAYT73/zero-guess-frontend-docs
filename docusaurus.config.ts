@@ -16,14 +16,14 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: "https://layt73.github.io",
+  url: "https://LAYT73.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/zero-guess-frontend-docs/",
-
+  trailingSlash: false,
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "layt73", // Usually your GitHub org/user name.
+  organizationName: "LAYT73", // Usually your GitHub org/user name.
   projectName: "zero-guess-frontend-docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
