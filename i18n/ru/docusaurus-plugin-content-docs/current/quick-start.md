@@ -13,7 +13,7 @@ sidebar_label: Быстрый старт
 zgf
 ```
 
-![Demo](/img/set.gif)
+![Demo](/img/setup.gif)
 
 Подсказки включают:
 

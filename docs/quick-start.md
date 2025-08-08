@@ -13,7 +13,7 @@ Run the generator and follow the prompts:
 zgf
 ```
 
-![Demo](/img/set.gif)
+![Demo](/img/setup.gif)
 
 Prompts include:
 
