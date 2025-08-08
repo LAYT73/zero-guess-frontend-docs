@@ -1,0 +1,38 @@
+{
+  "homepage.cta": {
+    "message": "ZGF Туториал — 5 минут",
+    "description": "Homepage CTA button label"
+  },
+  "homepage.description": {
+    "message": "Документация Zero Guess Frontend CLI помогает быстро понять и использовать возможности Zero Guess CLI.",
+    "description": "Homepage meta description"
+  },
+  "homepage.tagline": {
+    "message": "zero-guess-frontend — CLI‑инструмент для быстрой и структурированной генерации React‑проектов.",
+    "description": "Homepage tagline"
+  },
+  "homepage.features.zeroConfig.title": {
+    "message": "Zero Configuration",
+    "description": "Feature title"
+  },
+  "homepage.features.zeroConfig.desc": {
+    "message": "Просто запустите {code} и получите полностью структурированный фронтенд‑проект по лучшим практикам. Никакой настройки, никакого стресса.",
+    "description": "Feature description"
+  },
+  "homepage.features.architecture.title": {
+    "message": "Масштабируемая архитектура",
+    "description": "Feature title"
+  },
+  "homepage.features.architecture.desc": {
+    "message": "Проекты инициализируются с использованием FSD (feature‑sliced design) и принципов атомарного дизайна — готовы к масштабированию и долгосрочной поддержке.",
+    "description": "Feature description"
+  },
+  "homepage.features.cli.title": {
+    "message": "CLI, который думает за вас",
+    "description": "Feature title"
+  },
+  "homepage.features.cli.desc": {
+    "message": "CLI помогает генерировать фичи, UI‑компоненты, хуки и даже роутинг автоматически — следуя строгим правилам, чтобы вы могли сосредоточиться на коде.",
+    "description": "Feature description"
+  }
+}

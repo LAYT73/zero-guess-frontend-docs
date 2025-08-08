@@ -5,6 +5,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
+import Translate, { translate } from "@docusaurus/Translate";
 
 import styles from "./index.module.css";
 
@@ -16,13 +17,17 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">
+          <Translate id="homepage.tagline">
+            zero-guess-frontend is a CLI tool for fast and structured creation of React frontend projects.
+          </Translate>
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            ZGF Tutorial - 5min
+            <Translate id="homepage.cta">ZGF Tutorial - 5min</Translate>
           </Link>
         </div>
       </div>
@@ -35,7 +40,11 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`${siteConfig.title}-docs`}
-      description="Zero Guess Frontend CLI Documentation will helps users to quickly understand and utilize the features of the Zero Guess CLI."
+      description={translate({
+        id: "homepage.description",
+        message:
+          "Zero Guess Frontend CLI Documentation helps users quickly understand and utilize the features of the Zero Guess CLI.",
+      })}
     >
       <HomepageHeader />
       <main>

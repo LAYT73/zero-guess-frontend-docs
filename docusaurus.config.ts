@@ -99,9 +99,10 @@ const config: Config = {
           label: "GitHub",
           position: "right",
         },
-        // {
-        //   type: "localeDropdown",
-        // },
+        {
+          type: "localeDropdown",
+          position: "right",
+        },
       ],
     },
     footer: {
@@ -139,6 +140,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: ["shell-session", "bash", "powershell"],
     },
   } satisfies Preset.ThemeConfig,
 };
