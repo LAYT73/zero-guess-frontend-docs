@@ -5,7 +5,7 @@ sidebar_label: Установка
 
 # Установка
 
-> Требуется Node.js 20+.
+> Требуется Node.js 18+.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

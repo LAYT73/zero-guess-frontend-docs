@@ -254,7 +254,7 @@ files:
         continueOnError: true
   ```
 
-### Troubleshooting
+###  Устранение неполадок
 
 - __[npx prettier / eslint не найдены]__ — установите дев‑зависимости в целевом проекте: `npm i -D prettier eslint`.
 - __[Permission denied / EACCES]__ — проверьте корректность `cwd` и права на запись.
@@ -267,7 +267,7 @@ files:
 preGenerate → создание файлов → afterEach (для каждого файла) → postGenerate
 ```
 
-### Advanced options
+### Расширенные настройки
 
 <details>
 <summary><strong>Редко используемые поля</strong></summary>
@@ -296,7 +296,7 @@ zgf g ui-component @components
 
 Команда сгенерирует компонент в целевой папке по вашему шаблону.
 
-:::warning
+:::warning Предупреждение
 Функциональность активно развивается. Если столкнулись с проблемами — создайте issue в репозитории.
 :::
 

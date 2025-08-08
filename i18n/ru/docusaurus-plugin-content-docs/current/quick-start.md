@@ -123,7 +123,7 @@ zgf-preset
   zgf --preset=my-preset
   ```
 
-## 🧰 Troubleshooting
+## 🧰  Устранение неполадок
 
 - __"zgf: command not found"__ — установите глобально:
   ```bash
