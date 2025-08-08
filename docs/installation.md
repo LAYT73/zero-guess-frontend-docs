@@ -46,24 +46,7 @@ Install the CLI globally with your preferred package manager:
 After installation, the `zgf` command will be available in your terminal.
 You can also use `zgf-preset` to create and reuse presets.
 
-#### Supported package managers
 
-- npm
-- yarn (Classic/Berry)
-- pnpm
-- bun
-
-<details>
-  <summary><strong>Using Corepack (optional)</strong></summary>
-
-Node 20+ ships with Corepack, which helps manage Yarn/Pnpm versions.
-
-```bash
-corepack enable
-corepack prepare pnpm@latest --activate
-```
-
-</details>
 
 ---
 

@@ -46,24 +46,7 @@ import TabItem from '@theme/TabItem';
 После установки команда `zgf` будет доступна в терминале.
 Также вы можете использовать `zgf-preset` для создания и повторного применения пресетов.
 
-#### Поддерживаемые менеджеры пакетов
 
-- npm
-- yarn (Classic/Berry)
-- pnpm
-- bun
-
-<details>
-  <summary><strong>Corepack (опционально)</strong></summary>
-
-Node 20+ включает Corepack для управления версиями Yarn/Pnpm.
-
-```bash
-corepack enable
-corepack prepare pnpm@latest --activate
-```
-
-</details>
 
 ---
 
