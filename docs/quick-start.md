@@ -13,6 +13,8 @@ Run the generator and follow the prompts:
 zgf
 ```
 
+![Demo](/img/set.gif)
+
 Prompts include:
 
 - Project name
@@ -33,19 +35,19 @@ Example:
 zgf --name=my-app --pm=yarn --lang=ts --arch=fsd --routing --private --sm=redux
 ```
 
-| Option         | Alias | Type    | Description                           |
-| -------------- | :---: | ------- | ------------------------------------- |
-| `--name`       | `-n`  | string  | Project name                          |
-| `--pm`         |       | string  | Package manager (`npm`, `yarn`, `pnpm`) |
-| `--lang`       |       | string  | Language (`ts`, `js`)                 |
-| `--arch`       |       | string  | Architecture (`fsd`, `atomic`, `empty`) |
-| `--routing`    |       | boolean | Include `react-router-dom`            |
-| `--private`    |       | boolean | Add public/private routing setup      |
-| `--sm`         |       | string  | State manager (`redux`, `mobx`, `none`) |
-| `--help`       |       | boolean | Show help                             |
-| `--version`    |       | boolean | Show CLI version                      |
-| `--preset`     |       | string  | Create project by preset              |
-| `--preset-list`|       | boolean | Print list of presets                 |
+| Option          | Alias | Type    | Description                             |
+| --------------- | :---: | ------- | --------------------------------------- |
+| `--name`        | `-n`  | string  | Project name                            |
+| `--pm`          |       | string  | Package manager (`npm`, `yarn`, `pnpm`) |
+| `--lang`        |       | string  | Language (`ts`, `js`)                   |
+| `--arch`        |       | string  | Architecture (`fsd`, `atomic`, `empty`) |
+| `--routing`     |       | boolean | Include `react-router-dom`              |
+| `--private`     |       | boolean | Add public/private routing setup        |
+| `--sm`          |       | string  | State manager (`redux`, `mobx`, `none`) |
+| `--help`        |       | boolean | Show help                               |
+| `--version`     |       | boolean | Show CLI version                        |
+| `--preset`      |       | string  | Create project by preset                |
+| `--preset-list` |       | boolean | Print list of presets                   |
 
 </details>
 
@@ -72,19 +74,19 @@ Example output:
 
 ### Options
 
-| Option          | Alias | Type    | Description                        | Choices                 |
-| --------------- | :---: | ------- | ---------------------------------- | ----------------------- |
-| `--name`        | `-n`  | string  | Project name                       | —                       |
-| `--pm`          |       | string  | Package manager                    | npm · yarn · pnpm       |
-| `--lang`        |       | string  | Programming language               | ts · js                 |
-| `--arch`        |       | string  | Architecture type                  | fsd · atomic · empty    |
-| `--routing`     |       | boolean | Include `react-router-dom`         | —                       |
-| `--private`     |       | boolean | Add private/public routes          | —                       |
-| `--sm`          |       | string  | State manager                      | redux · mobx · none     |
-| `--help`        |       | boolean | Show help                          | —                       |
-| `--version`     |       | boolean | Show CLI version                   | —                       |
-| `--preset`      |       | string  | Create project by preset           | —                       |
-| `--preset-list` |       | boolean | Print list of presets              | —                       |
+| Option          | Alias | Type    | Description                | Choices              |
+| --------------- | :---: | ------- | -------------------------- | -------------------- |
+| `--name`        | `-n`  | string  | Project name               | —                    |
+| `--pm`          |       | string  | Package manager            | npm · yarn · pnpm    |
+| `--lang`        |       | string  | Programming language       | ts · js              |
+| `--arch`        |       | string  | Architecture type          | fsd · atomic · empty |
+| `--routing`     |       | boolean | Include `react-router-dom` | —                    |
+| `--private`     |       | boolean | Add private/public routes  | —                    |
+| `--sm`          |       | string  | State manager              | redux · mobx · none  |
+| `--help`        |       | boolean | Show help                  | —                    |
+| `--version`     |       | boolean | Show CLI version           | —                    |
+| `--preset`      |       | string  | Create project by preset   | —                    |
+| `--preset-list` |       | boolean | Print list of presets      | —                    |
 
 ### Examples
 
@@ -114,32 +116,39 @@ Attention! For presets and other functions to work correctly, you must install t
 
 ## 🍳 Recipes
 
-- __[FSD + TypeScript + routing]__
+- **[FSD + TypeScript + routing]**
+
   ```bash title="CLI example"
   zgf --name=my-app --pm=yarn --lang=ts --arch=fsd --routing --private --sm=redux
   ```
 
-- __[Minimal empty JS app]__
+- **[Minimal empty JS app]**
+
   ```bash
   zgf --name=playground --pm=npm --lang=js --arch=empty --sm=none
   ```
 
-- __[Using a preset]__
+- **[Using a preset]**
+
   ```bash
   zgf --preset=my-preset
   ```
 
 ## 🧰 Troubleshooting
 
-- __"zgf: command not found"__ — install globally:
+- **"zgf: command not found"** — install globally:
+
   ```bash
   npm i -g zero-guess-frontend
   ```
-- __Windows: cannot run scripts__ — enable script execution in PowerShell:
+
+- **Windows: cannot run scripts** — enable script execution in PowerShell:
+
   ```powershell
   Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
   ```
-- __EACCES / permissions__ — ensure you have write access to the target folder.
+
+- **EACCES / permissions** — ensure you have write access to the target folder.
 
 ---
 

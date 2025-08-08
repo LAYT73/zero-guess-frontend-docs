@@ -12,37 +12,52 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: translate({ id: "homepage.features.zeroConfig.title", message: "Zero Configuration" }),
+    title: translate({
+      id: "homepage.features.zeroConfig.title",
+      message: "Zero Configuration",
+    }),
     // Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
         <Translate
           id="homepage.features.zeroConfig.desc"
-          values={{ code: <code>npx zgf</code> }}
+          values={{ code: <code>npm i -g zero-guess-frontend</code> }}
         >
-          {"Just run {code} and get a fully structured frontend project based on best practices. No setup, no stress."}
+          {
+            "Just run {code} and get a fully structured frontend project based on best practices. No setup, no stress."
+          }
         </Translate>
       </>
     ),
   },
   {
-    title: translate({ id: "homepage.features.architecture.title", message: "Scalable Architecture" }),
+    title: translate({
+      id: "homepage.features.architecture.title",
+      message: "Scalable Architecture",
+    }),
     // Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
         <Translate id="homepage.features.architecture.desc">
-          {"Projects are initialized using FSD (feature-sliced design) and atomic design principles — ready to scale and maintain long-term."}
+          {
+            "Projects are initialized using FSD (feature-sliced design) and atomic design principles — ready to scale and maintain long-term."
+          }
         </Translate>
       </>
     ),
   },
   {
-    title: translate({ id: "homepage.features.cli.title", message: "CLI That Thinks for You" }),
+    title: translate({
+      id: "homepage.features.cli.title",
+      message: "CLI That Thinks for You",
+    }),
     // Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
         <Translate id="homepage.features.cli.desc">
-          {"The CLI helps you generate features, UI components, hooks, and even routing automatically — following strict rules so you can focus on coding."}
+          {
+            "The CLI helps you generate features, UI components, hooks, and even routing automatically — following strict rules so you can focus on coding."
+          }
         </Translate>
       </>
     ),
