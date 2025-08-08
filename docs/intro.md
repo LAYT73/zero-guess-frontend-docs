@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+sidebar_label: Overview
 ---
 
-# Introduction to Zero Guess Frontend
+# Overview
 
 Welcome to **zero-guess-frontend** — a powerful CLI tool for instantly generating well-structured React frontend projects.
 
@@ -84,3 +85,11 @@ zgf --help
 - Add your own templates or customize existing ones
 
 You're all set to build fast, clean, and scalable React frontends. Happy coding!
+
+---
+
+### See also
+
+- Installation: [installation](./installation)
+- Quick Start: [quick-start](./quick-start)
+- FAQ: [faq](./faq)
